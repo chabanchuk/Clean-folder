@@ -1,5 +1,4 @@
 from setuptools import setup
-
 setup(
    name='clean_folder',
    version='0.0.1',
@@ -9,6 +8,6 @@ setup(
    author_email='chabanchuk@gmail.com',
    license='MIT',
    packages=['clean_folder'],
-   install_requires = [],
-   entry_points={'console_sсripts': ['clean-folder=clean_folder.clean:main']}
+   install_requires=[],
+   entry_points={'console_scripts': ['clean-folder=clean_folder.clean:main']}
 )
